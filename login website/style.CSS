@@ -78,7 +78,7 @@ input[type="radio"]{
 }
 #signup:checked ~ .slider-tab{
   left: 50%;
-}
+}/*responsible for the transition*/
 #signup:checked ~ label.signup{
   color: #fff;
   cursor: default;
