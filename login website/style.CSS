@@ -5,25 +5,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  /* background-color: #71c09b; */
 }
 html,body{
 
   display: grid;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   place-items: center;
   background-image: url(PNG.ORT);
 }
 ::selection{
-  background: #a47fa0;
-  color: #fff;
+  background: #c388bde0;
+  color: #9e5c5c7c;
 }
 .wrapper{
   overflow: hidden;
   max-width: 390px;
-  background: #fff;
+  background: #e9c5c559;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
 .wrapper .title-text{
@@ -45,13 +46,13 @@ html,body{
   overflow: hidden;
   margin: 30px 0 10px 0;
   justify-content: space-between;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(97, 46, 46);
   border-radius: 5px;
 }
 .slide-controls .slide{
   height: 100%;
   width: 100%;
-  color: #fff;
+  color: #120d0d;
   font-size: 18px;
   font-weight: 500;
   text-align: center;
@@ -61,7 +62,7 @@ html,body{
   transition: all 0.6s ease;
 }
 .slide-controls label.signup{
-  color: #000;
+  color: #b59393;
 }
 .slide-controls .slider-tab{
   position: absolute;
@@ -80,7 +81,7 @@ input[type="radio"]{
   left: 50%;
 }/*responsible for the transition*/
 #signup:checked ~ label.signup{
-  color: #fff;
+  color: #892525;
   cursor: default;
   user-select: none;
 }
@@ -103,6 +104,7 @@ input[type="radio"]{
   width: 200%;
 }
 .form-container .form-inner form{
+
   width: 50%;
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
@@ -117,7 +119,7 @@ input[type="radio"]{
   outline: none;
   padding-left: 15px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(216, 95, 95);
   border-bottom-width: 2px;
   font-size: 17px;
   transition: all 0.3s ease;
@@ -131,7 +133,7 @@ input[type="radio"]{
   transition: all 0.3s ease;
 }
 form .field input:focus::placeholder{
-  color: #b3b3b3;
+  color: #255ea5;
 }
 .form-inner form .pass-link{
   margin-top: 5px;
@@ -161,7 +163,7 @@ form .btn .btn-layer{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right, #3e08bb, #67c6d8, #3e08bb, #e5e6f6);
+  background: -webkit-linear-gradient(right, #3e08bb, #67c6d8, #3e08bb, #5f64a2);
   border-radius: 5px;
   transition: all 0.4s ease;;
 }
